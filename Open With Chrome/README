@@ -1,5 +1,5 @@
 ===================================================
-============== Alfred App Extensions ==============
+========== Open File in Chrome ====================
 ========== Updated 14/01/2012 - Drezha ============
 ===================================================
 
@@ -13,20 +13,20 @@ iii. Usage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 i. Aim
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-This repository details the source code behind the Alfred.app powerpack extensions I've coded.
-These range from basic Applescripts to more complex ones (in the future!)
-
+This extension will open the currently selected file
+in Finder in Google Chrome.
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ii. Requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-These scripts require Alfred.app to run. Get it here http://www.alfredapp.com/
-It also requires the Powerpack installed.
-Individual scripts may require extra software and it'll be noted in the script.
+- Alfred.app (http://www.alfredapp.com/)
+- Alfred Powerpack
+- Finder
+- Google Chrome
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 iii. Usage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Basic Usage
-i.	Download the .alfredextension file
-ii. Double click to install
+i.	 Download the .alfredextension file
+ii.  Double click to install

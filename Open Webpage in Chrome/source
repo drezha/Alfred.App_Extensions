@@ -1,0 +1,4 @@
+-- Based on the code found here
+-- http://www.tuaw.com/2011/03/14/use-applescript-to-open-current-safari-url-in-google-chrome/
+
+property theURL : ""tell application "Safari"		set theURL to URL of current tab of window 1	end telltell application "Google Chrome"		set URL of active tab of window 1 to theURL		activate	end tell
