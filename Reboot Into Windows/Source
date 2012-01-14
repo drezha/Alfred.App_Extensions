@@ -1,0 +1,1 @@
+do shell script "bless -mount /Volumes/BOOTCAMP/ -legacy -setBoot -nextonly" with administrator privilegesdo shell script "shutdown -r now" with administrator privileges
