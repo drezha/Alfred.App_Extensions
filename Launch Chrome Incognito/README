@@ -14,7 +14,8 @@ iii. Usage
 i. Aim
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 This extension will open Google Chrome in an Incognito
-session.
+session. If already open, it'll open a new Incognito
+window
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ii. Requirements
@@ -22,10 +23,12 @@ ii. Requirements
 - Alfred.app (http://www.alfredapp.com/)
 - Alfred Powerpack
 - Google Chrome
+- Assistive access enabled in System Prefrences > Universal
+  Access
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 iii. Usage
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Basic Usage
-i.	 Download the .alfredextension file
+i.   Download the .alfredextension file
 ii.  Double click to install

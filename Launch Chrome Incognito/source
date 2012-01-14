@@ -1,1 +1,1 @@
-open -a Google\ Chrome --new --args -incognito
+tell application "System Events"	set myList to (name of every process)end tellif (myList contains "Google Chrome") is false then	do shell script "open -a Google\\ Chrome --new --args -incognito"else	tell application "Google Chrome"		activate		tell application "System Events" to keystroke "n" using {command down, shift down}	end tellend if
