@@ -1,0 +1,36 @@
+\contentsline {section}{\numberline {0.1}Introduction}{1}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Background}{1}{subsection.0.1.1}
+\contentsline {subsection}{\numberline {0.1.2}Aims and Objectives}{1}{subsection.0.1.2}
+\contentsline {section}{\numberline {0.2}Methodology}{1}{section.0.2}
+\contentsline {subsubsection}{Literature Review}{1}{section*.2}
+\contentsline {subsubsection}{Current Practice}{2}{section*.3}
+\contentsline {subsection}{\numberline {0.2.1}Current Legalisation}{2}{subsection.0.2.1}
+\contentsline {subsubsection}{Regulations}{2}{section*.4}
+\contentsline {subsubsection}{Standards}{3}{section*.5}
+\contentsline {subsubsection}{Codes}{3}{section*.6}
+\contentsline {subsubsection}{Regulatory Reform (Fire Safety) Order}{3}{section*.7}
+\contentsline {subsection}{\numberline {0.2.2}Fire Protection Methods and Systems}{4}{subsection.0.2.2}
+\contentsline {subsubsection}{Smoke Detection and Alarms}{4}{section*.8}
+\contentsline {subsubsection}{Sprinklers}{4}{section*.9}
+\contentsline {subsubsection}{Compartmentation and Passive Fire Protection}{4}{section*.10}
+\contentsline {subsubsection}{Smoke Control and Pressurisation}{5}{section*.11}
+\contentsline {subsubsection}{Modelling}{5}{section*.12}
+\contentsline {section}{\numberline {0.3}Previous Research}{6}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Effectiveness}{6}{subsection.0.3.1}
+\contentsline {subsubsection}{Smoke Detection and Alarms}{6}{section*.13}
+\contentsline {subsubsection}{Sprinklers}{6}{section*.14}
+\contentsline {subsubsection}{Compartmentation and Passive Fire Protection}{6}{section*.15}
+\contentsline {subsubsection}{Smoke Control and Pressurisation}{9}{section*.16}
+\contentsline {subsubsection}{Modelling}{10}{section*.17}
+\contentsline {subsection}{\numberline {0.3.2}Cost Effectiveness}{10}{subsection.0.3.2}
+\contentsline {subsubsection}{Measuring Cost Effectiveness}{10}{section*.18}
+\contentsline {subsubsection}{Smoke Detection and Alarms}{11}{section*.19}
+\contentsline {subsubsection}{Sprinklers}{11}{section*.20}
+\contentsline {subsubsection}{Compartmentation and Passive Fire Protection}{12}{section*.21}
+\contentsline {section}{\numberline {0.4}Fire Engineering Design}{12}{section.0.4}
+\contentsline {subsubsection}{Current Practice}{12}{section*.22}
+\contentsline {subsubsection}{Quality Control}{13}{section*.23}
+\contentsline {subsubsection}{Materials}{13}{section*.24}
+\contentsline {subsubsection}{Views on Performance Based Engineering}{14}{section*.25}
+\contentsline {section}{\numberline {0.5}Cost Benefit Analysis and Cost Effectiveness}{15}{section.0.5}
+\contentsline {section}{Bibliography}{16}{section.0.5}

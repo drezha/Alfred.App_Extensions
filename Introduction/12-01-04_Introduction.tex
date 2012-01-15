@@ -1,0 +1,102 @@
+\documentclass[table,a4paper,oneside]{book}
+
+\usepackage{graphicx} % Allows insert of graphics
+\usepackage{longtable} % Allows for multipage spanning tables
+\usepackage{pdfpages} % Simplifies insertion of multipage PDF’s
+\usepackage{natbib} % Puts in bibliography style
+\usepackage[pdfborder=0 0 0]{hyperref} % Adds PDF links
+\usepackage{mathptm} % Changes font
+\usepackage{fancyhdr} % Allows the use of the fancy Header package
+\usepackage{url} % Makes URL’s appear nicer and follow formatting rules
+\usepackage{algorithm} % Allows Algorithmic insertions to be floated
+\usepackage{algorithmic} % Allows Algorithms and Pseudocode
+\usepackage{textcomp} % LaTeX support for the Text Companion fonts.
+\usepackage{setspace} % Allows the use of the set space command
+\usepackage{listings} % Allows the use of source code
+\usepackage{colortbl} % Adds colour to rows etc
+\usepackage{acronym} % Allows the use of acronyms in code - deals with printing acronyms out nicely
+\usepackage{booktabs} % Allows the use of professional looking tables
+\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={25.4mm,25.4mm}]{geometry} % Allows the changing of page borders
+
+\setlength{\parindent}{0.0in} % Sets paragraph indentation to 0
+\pagestyle{fancy}
+\bibpunct{(}{)}{,}{a}{,}{,} % Defining the citation style
+\newcommand{\degree}{\ensuremath{^\circ}} % Sets new command - Inserts degree symbol
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Set new command - Add blank line
+\newcommand{\mtwo}{m\textsuperscript{2} } % Sets the command - Adds m^2.
+
+% Acronym Definition
+% \acrodef{label}[acronym]{written out form}
+% \acrodef{acronym}{written our form}
+\acrodef{ADB}{Approved Document B}
+\acrodef{BCIS}{Building Cost Information Service}
+\acrodef{CLG}{Department of Communities and Local Government}
+\acrodef{CSV}{Comma Separated Value}
+\acrodef{FPA}{Fire Protection Association}
+\acrodef{FRS}{Fire and Rescue Service}
+\acrodef{IRS}{Incident Reporting System}
+\acrodef{IRMP}{Integrated Risk Management Plan}
+\acrodef{RIBA}{Royal Institute of British Architects}
+
+\begin{document}
+%\onehalfspacing
+% Above command sets document to 1.5 line spacing
+\doublespacing
+% Above command sets document to 2.0 line spacing
+% Remove all above when creating thesis from Master document
+
+\chapter{Indtroduction}
+\label{chap:Introduction}
+
+This chapter details the different parts of the following thesis.
+
+\section{Research Scope}
+\label{sec:Scope}
+
+
+\section{Aims}
+\label{sec:Aims}
+The aims of this research are:
+\\
+\\
+Firstly, understand the industries views on when fire enigineers should be involved in a project and how involving fire engineers affects the costs of a project.
+\\
+\\
+Secondly, analyse and interpret fire incident data collected by \ac{CLG} and the \ac{FPA}.
+\\
+\\
+Lastly, using the collected data, consturct a cost benefit tool for use by fire engineers to easily propose different cost design proposals to a client and make it clear on the cost benefits of one design over the other.
+
+\section{Objectives}
+\label{sec:Objectives}
+Specific objectives to meet the aims of this research are as follows:-
+
+\begin{enumerate}
+	\item To investigate the current practise within the fire engineering industry through questionnaires and interviews;
+	\item Analyse questionnaires and interviews to consider if a cost benefit tool is needed;
+	\item Review of fire protection measures and their applications;
+	\item Identify the different aspects that will affect the costs of a final design;
+	\item Statistically analyse data collected by \ac{CLG} and \ac{FPA};
+	\item Use the \ac{FPA} and \ac{CLG} data as an evidence base, develop a cost benefit tool framework.
+\end{enumerate}
+
+
+\section{Publications}
+\label{sec:Publications}
+
+Publications published as part of this PhD are detailed below and are referenced in the text as required. These are included at the end of this thesis.
+
+\begin{enumerate}
+	\item C Salter, N Bouchlaghem (2011), \textbf{Fire Engineering in the UK : A UK Practitioners View}, \emph{International Conference on Building Resilience}.
+	\item C Salter, G Ramachandran, N Bouchlaghem (2011), \textbf{A Cost Benefit Tool for Fire Protection Engineers : An Analysis}, \emph{2nd IRMP Conference}, Glasgow University.
+\end{enumerate}
+
+\section{Structure of Thesis}
+\label{sec:Structure}
+
+% Remove all below this line when creating thesis from Master Document
+%\addcontentsline{toc}{section}{Bibliography}
+%\bibliographystyle{custom}
+%\bibliography{../../../Bibliography}
+
+\end{document}

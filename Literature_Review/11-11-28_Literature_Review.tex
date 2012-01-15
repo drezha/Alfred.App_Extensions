@@ -1,0 +1,82 @@
+\documentclass[table,a4paper,oneside]{book}
+
+\usepackage{graphicx} % Allows insert of graphics
+\usepackage{longtable} % Allows for multipage spanning tables
+\usepackage{pdfpages} % Simplifies insertion of multipage PDF’s
+\usepackage{natbib} % Puts in bibliography style
+\usepackage[pdfborder=0 0 0]{hyperref} % Adds PDF links
+\usepackage{mathptm} % Changes font
+\usepackage{fancyhdr} % Allows the use of the fancy Header package
+\usepackage{url} % Makes URL’s appear nicer and follow formatting rules
+\usepackage{algorithm} % Allows Algorithmic insertions to be floated
+\usepackage{algorithmic} % Allows Algorithms and Pseudocode
+\usepackage{textcomp} % LaTeX support for the Text Companion fonts.
+\usepackage{setspace} % Allows the use of the set space command
+\usepackage{listings} % Allows the use of source code
+\usepackage{colortbl} % Adds colour to rows etc
+\usepackage{acronym} % Allows the use of acronyms in code - deals with printing acronyms out nicely
+\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={25.4mm,25.4mm}]{geometry} % Allows the changing of page borders
+
+\setlength{\parindent}{0.0in} % Sets paragraph indentation to 0
+\pagestyle{fancy}
+\bibpunct{(}{)}{,}{a}{,}{,} % Defining the citation style
+\newcommand{\degree}{\ensuremath{^\circ}} % Sets new command - Inserts degree symbol
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Set new command - Add blank line
+\newcommand{\mtwo}{m\textsuperscript{2} } % Sets the command - Adds m^2.
+
+% Acronym Definition
+% \acrodef{label}[acronym]{written out form}
+% \acrodef{acronym}{written our form}
+\acrodef{ADB}{Approved Document B}
+\acrodef{BCIS}{Building Cost Information Service}
+\acrodef{CLG}{Department of Communities and Local Government}
+\acrodef{CSV}{Comma Separated Value}
+\acrodef{FPA}{Fire Protection Association}
+\acrodef{FRS}{Fire and Rescue Service}
+\acrodef{IRS}{Incident Reporting System}
+\acrodef{IRMP}{Integrated Risk Management Plan}
+
+\begin{document}
+\onehalfspacing
+% Above command sets document to 1.5 line spacing
+% Remove all above when creating thesis from Master document
+
+\chapter{Literature Review}
+\label{chapter:Lit_Review}
+\acresetall
+
+\section{Introduction}
+\label{sec:Introduction}
+This chapter details the previous work done in and around the area of Fire Engineering by other academics and research staff. This section identifies the research gap that this research is intended to fill.
+\\
+\\
+Fire engineering covers a broad aspect of research, from investigation into costs, materials, construction methods and the psychology of occupants during fires. This chapter covers the research done in these areas, though mainly in regards to construction and costs of fires. It also includes a brief literature review on the construction of a software tool as this was the predicted outcome of this research.
+
+\section{Fire Protection}
+\label{sec:Fire_Protection}
+Society dictates that people should be able to enjoy a reasonable level of safety during day to day activites and as such, part of this is protection from natural and man made phenomena such as fire. Such demands for safety, espcially after large incidents where a considerable loss of life or property occurred, led to the initial development of the fire building regulations \citep{Stollard1994}. These building regulations developed over time into the current form we have today in the UK \citep{Communities2006}. These regulations are in place so that the building can be designed safely to allow occupants to escape should a fire occur and to prevent excessively quick fire spread, again, allowing for escape. This focus on life safety is the main concern behind the current regulations and appears to have been reasonably successful, as fire deaths have declined steadily over the past decade \citep{DepartmentforCommunitiesandLocalGovernment2010}. However, there has been a steady increase in the cost of fires over the same period \citep{AssociationofBritishInsurers2009}. These figures seem to show that whilst the building regulations seem to be working for reducing and keeping the number of fire deaths low, their doesn't seem to be any reduction to the cost of fires by constructing to meet the building regulations.
+\\
+\\
+Whilst Approved Document B lays down the building regulations in relation to fire safety and details the easiest method of meeting these regulations, it is by no means the only method of meeting the regulations. Designers also have aceess to two British Standards that set out methods of meeting the regulations. These British Standards are more advanced methods of designing buildings and therefore are used in the larger and more complex buildings. These two codes are also more open in how the design of the building can attain fire safety certification. BS 9999: Code of Practice for Fire Safety in the Design Management and Use of Buildings \citep{BSI2008} is a relatively new code that attempts to make it easier for designers to incorporate fire safety into more complex structures without having to use PD 7974: Application of Fire Safety Engineering Principles to the Design of Buildings \citep{BSI2003a} which is used in the most complex of buildings because it reduces fire safety to the first principles of fire science and requires an understanding of flame spread, fire dynamics and combustion science to use effectively.
+\\
+\\
+To meet the fire regulations, buildings have to be protected by differenting fire protection systems. These systems delay the spread of fire and make it easier for the occupants to escape. The design of the building itself and the restriction in the use of combustible materials is one method of preventing fire spread is the main aspect behind the regulations. This method of preventing fire spread is refered to as passive fire protection, as the protection does not need to change state to complete it's function in preventing fire spread. However, additional systems are installed, such as fire alarms and extinction systems are installed and these are active fire protection measures. The combination of both active and passive measures provides the complete fire protection design for a building. Previous research has suggested that the includsion of active measures such as sprinklers can reduce the passive protection measures included in a building \citep{Baldwin1974} though it's still believed that both systems should be used complimentaryly \citep{Haack2004}.
+
+\section{Design Tools}
+\label{sec:Design_Tools}
+
+\section{Data Collection}
+\label{sec:Data_Collection}
+
+\section{Software Design}
+\label{sec:Software_Design}
+
+% Remove all below this line when creating thesis from Master Document
+%TC:ignore
+% Sets Texcount to Ignore
+
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{custom}
+\bibliography{../../Bibliography}
+
+\end{document}
