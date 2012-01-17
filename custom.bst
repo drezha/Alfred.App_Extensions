@@ -1200,7 +1200,6 @@ FUNCTION {techreport}
   format.btitle
   "title" output.check
   new.block
-  format.tr.number output.nonnull
   institution "institution" bibinfo.warn output
   address "address" bibinfo.check output
   format.date "year" output.check
