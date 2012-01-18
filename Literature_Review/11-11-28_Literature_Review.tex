@@ -2,12 +2,12 @@
 
 \usepackage{graphicx} % Allows insert of graphics
 \usepackage{longtable} % Allows for multipage spanning tables
-\usepackage{pdfpages} % Simplifies insertion of multipage PDF�s
+\usepackage{pdfpages} % Simplifies insertion of multipage PDFs
 \usepackage{natbib} % Puts in bibliography style
 \usepackage[pdfborder=0 0 0]{hyperref} % Adds PDF links
 \usepackage{mathptm} % Changes font
 \usepackage{fancyhdr} % Allows the use of the fancy Header package
-\usepackage{url} % Makes URL�s appear nicer and follow formatting rules
+\usepackage{url} % Makes URLs appear nicer and follow formatting rules
 \usepackage{algorithm} % Allows Algorithmic insertions to be floated
 \usepackage{algorithmic} % Allows Algorithms and Pseudocode
 \usepackage{textcomp} % LaTeX support for the Text Companion fonts.
@@ -15,7 +15,7 @@
 \usepackage{listings} % Allows the use of source code
 \usepackage{colortbl} % Adds colour to rows etc
 \usepackage{acronym} % Allows the use of acronyms in code - deals with printing acronyms out nicely
-\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={25.4mm,25.4mm}]{geometry} % Allows the changing of page borders
+\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={35.0mm,25.4mm}]{geometry} % Allows the changing of page borders
 
 \setlength{\parindent}{0.0in} % Sets paragraph indentation to 0
 \pagestyle{fancy}
@@ -31,10 +31,12 @@
 \acrodef{BCIS}{Building Cost Information Service}
 \acrodef{CLG}{Department of Communities and Local Government}
 \acrodef{CSV}{Comma Separated Value}
+\acrodef{DSS}{Decision Support System}
 \acrodef{FPA}{Fire Protection Association}
 \acrodef{FRS}{Fire and Rescue Service}
 \acrodef{IRS}{Incident Reporting System}
 \acrodef{IRMP}{Integrated Risk Management Plan}
+\acrodef{RIBA}{Royal Institute of British Architects}
 
 \begin{document}
 \onehalfspacing
@@ -62,8 +64,48 @@ Whilst Approved Document B lays down the building regulations in relation to fir
 \\
 To meet the fire regulations, buildings have to be protected by differenting fire protection systems. These systems delay the spread of fire and make it easier for the occupants to escape. The design of the building itself and the restriction in the use of combustible materials is one method of preventing fire spread is the main aspect behind the regulations. This method of preventing fire spread is refered to as passive fire protection, as the protection does not need to change state to complete it's function in preventing fire spread. However, additional systems are installed, such as fire alarms and extinction systems are installed and these are active fire protection measures. The combination of both active and passive measures provides the complete fire protection design for a building. Previous research has suggested that the includsion of active measures such as sprinklers can reduce the passive protection measures included in a building \citep{Baldwin1974} though it's still believed that both systems should be used complimentaryly \citep{Haack2004}.
 
-\section{Design Tools}
-\label{sec:Design_Tools}
+\section{Decision Support Systems}
+\label{sec:DSS}
+A \ac{DSS} can be defined as a ``computer based systems that help decision makers confront ill-structured problems through direct interaction with data and analysis models'' \citep{SpragueWatson198906}. These systems allow designers and managers to access help in the decision making process.
+\\
+\\
+The majority of \ac{DSS} tool have similar features in common. These are:-
+\begin{itemize}
+\item They are non routine and involve frequent \emph{ad hoc} analysis, fast access to data and generation of non standard reports
+\item They often address “What if?” questions
+\item They have no obvious correct answer; a manager has to make qualitative trade offs and take into account situational factors
+\end{itemize}
+
+These features are discussed in Value Analysis: Justifying Decision Support Systems \citep{Keen1981}. This paper disucsses the fact that \ac{DSS} tools are helpful in the role they play but are difficult to quantify in regards to cost savings. However, Keen describes that tools should be:-
+
+\begin{enumerate}
+\item Flexible
+\item Easy to use
+\item Responsive
+\item Communicative
+\end{enumerate}
+
+He explains that it should be flexible to handle different situations, easy to use so it can be put into different users workflow, responsive as it must not impose a structure on the user and be rapid in its calculations and communicative so that the end user can get the knowledge they need from the tool qucikly and easily. By following these four ``rules'', the tool should be of the most use to the end users.
+\\
+\\
+In his book \citep{Keen1980} , Keen describes the percieved benefits of a \ac{DSS} system. These are:
+
+\begin{enumerate}
+\item Increase in the number of alternatives examined
+\item Better understanding of the business
+\item Fast response to unexpected situations
+\item Ability to carry out \emph{ad hoc} analysis
+\item New insights and learning
+\item Improved communication
+\item Control
+\item Cost savings
+\item Better decisions
+\item More effective teamwork
+\item Time savings
+\item Making better use of data resources
+\end{enumerate}
+
+Not all of these 12 benefits can be applied to the design tool in this research, however the proposed tool does achieve a number of these points, specifically points one (alternative approaches), eight (cost savings), nine (better decisions), eleven (time savings) and twelve (Making better use of data resources). By allowing the end user to run more alternatives to the fire design, it is hoped that a better, more cost effective solution can be put forward as an alternative to the other plans a designer might submit.
 
 \section{Data Collection}
 \label{sec:Data_Collection}
