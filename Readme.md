@@ -9,14 +9,14 @@
 2. Requirements
 3. Usage
 
-## i. Aim
+## Aim
 This extension will restart your PC into a bootcamped Windows install, allowing you to bypass pressing the option key at bootup (so you can reboot and walk away from the Mac)
 
-## ii. Requirements
+## Requirements
 - [Alfred app](http://www.alfredapp.com/)
 - Alfred Powerpack
 
-## iii. Usage
+## Usage
 1. Download the .alfredextension file
 2. Double click to install
 3. Inside the Alfred preferences, goto the Extensions
