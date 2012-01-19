@@ -2,12 +2,12 @@
 
 \usepackage{graphicx} % Allows insert of graphics
 \usepackage{longtable} % Allows for multipage spanning tables
-\usepackage{pdfpages} % Simplifies insertion of multipage PDFs
+\usepackage{pdfpages} % Simplifies insertion of multipage PDFÂs
 \usepackage{natbib} % Puts in bibliography style
 \usepackage[pdfborder=0 0 0]{hyperref} % Adds PDF links
 \usepackage{mathptm} % Changes font
 \usepackage{fancyhdr} % Allows the use of the fancy Header package
-\usepackage{url} % Makes URLs appear nicer and follow formatting rules
+\usepackage{url} % Makes URL's appear nicer and follow formatting rules
 \usepackage{algorithm} % Allows Algorithmic insertions to be floated
 \usepackage{algorithmic} % Allows Algorithms and Pseudocode
 \usepackage{textcomp} % LaTeX support for the Text Companion fonts.
@@ -34,6 +34,7 @@
 \acrodef{DSS}{Decision Support System}
 \acrodef{FPA}{Fire Protection Association}
 \acrodef{FRS}{Fire and Rescue Service}
+\acrodef{GUI}{Graphical User Interface}
 \acrodef{IRS}{Incident Reporting System}
 \acrodef{IRMP}{Integrated Risk Management Plan}
 \acrodef{RIBA}{Royal Institute of British Architects}
@@ -72,7 +73,7 @@ A \ac{DSS} can be defined as a ``computer based systems that help decision maker
 The majority of \ac{DSS} tool have similar features in common. These are:-
 \begin{itemize}
 \item They are non routine and involve frequent \emph{ad hoc} analysis, fast access to data and generation of non standard reports
-\item They often address “What if?” questions
+\item They often address ``What if?'' questions
 \item They have no obvious correct answer; a manager has to make qualitative trade offs and take into account situational factors
 \end{itemize}
 
@@ -112,6 +113,23 @@ Not all of these 12 benefits can be applied to the design tool in this research,
 
 \section{Software Design}
 \label{sec:Software_Design}
+As the outcome of the research is a proposed methodology for a \ac{DSS} system, then a brief literature review should cover the design of the software. The tool is designed to be used by fire engineers and possibly fire engineering clients, so the tool will cater to the needs of the fire engineers. The definetion of tool in this research follows that given by Lockley and Sun \citep{Lockley1995} which is ``a computer program that is used by engineers to perform analysis of a building or its services (prior to relisation) for the purpose of making, modifying or evaluating design decisions''.
+\\
+\\
+As discussed in \ref{sec:DSS}, Keen puts forward the areas a \ac{DSS} should follow to allow the best use. These were that it should be flexible, easy to use, responsive and communicative. These aspects are met in the coding of the software. For example, ease of use comes down to the design of the \ac{GUI}. A well developed \ac{GUI} will allow users to navigate the program intuitivly. In the design of \ac{GUI}'s, Shneiderman and Plaisant lay down 8 ``golden rules'' of interface design. These are:-
+
+\begin{enumerate}
+\item \textbf{Strive for consistency} - Program design should be consistent throughout, such as layout, fonts, design and where possible, user actions and terminology.
+
+\item \textbf{Cater to universal usability} - Recognise the needs of the users and design accordingly. Different users will use the tool differently (further discussed in a paper by Udema \citep{Uduma2007} and also mentioned by Sprague in his paper setting out the framework for \ac{DSS} creation \citep{Sprague1980}.) which stated that different skill levels of users would use the tool differently, depending on the users level of experience in the field the tool is designed for). This means adding help for novice users and shortcut keys and faster pacing for more experienced users.
+\item \textbf{Offer informative feedback} - For each user action, the software should provide feedback though the feedback should follow the scale of actions (minor feedback for minor actions, major feedback for major actions)
+\item \textbf{Design dialogs to yield closure} - Sequences of actions should be organised into groups and should have a beginning, middle and end. Feedback should be given at the completion of a set of actions so the user knows the item is complete (for example, e-commerce sites show a checkout completion screen to let users know this set of actions has been completed)
+\item \textbf{Prevent errors} - Design the program to prevent errors, such as only allow numbers to be entered into a field that only needs numerical data entered. If an erroneous value is entered, provide feedback to the user and let them correct it. Allow them to only have to correct the erroneous value rather than redo the entire form.
+\item \textbf{Permit easy reversal of actions} - As much as possible, allow for easy reversal of errors. This allows users a sense of relief, knowing they can undo any error - this allows for exploration of unfamiliar options.
+\item \textbf{Support internal locus of control} - Experienced operators desire the sense that they are in command of the interface and the interface should be designed accordingly. Surprising interface actions, tedious sequences of data entries or the inability to gather information will build dissatisfaction with the product.
+\item \textbf{Reduce short term memory load} - Human short term memory means that displays should be kept simple and short. Where appropriate, online access should be provided to command-syntax, abbreviations, shortcuts and other information.
+\end{enumerate}
+
 
 % Remove all below this line when creating thesis from Master Document
 %TC:ignore
