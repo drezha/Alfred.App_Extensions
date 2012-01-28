@@ -113,12 +113,15 @@ Not all of these 12 benefits can be applied to the design tool in this research,
 
 \section{Data Collection}
 \label{sec:Data_Collection}
+Most of the data for this PhD is incident data and has already been collected by the \ac{FRS} for \ac{CLG} use as well as the data from the \ac{FPA}. However, data needs to be collected from fire engineers and those involved within the building industry to investigate the current practise and how the fire protection is specified in a building, as based on literature, the mindset appears to be that the structurcal engineer designs the structure and the architect and fire engineer design the fire protection \citep{Alfawakhiri2005}. Collecting data will allow the \ac{DSS} to focus on those that are responsible for the design of the fire protection within a building and therefore the tool can be customised to the needs of that intended group.
 
 \section{Software Design}
 \label{sec:Software_Design}
 As the outcome of the research is a proposed methodology for a \ac{DSS} system, then a brief literature review should cover the design of the software. The tool is designed to be used by fire engineers and possibly fire engineering clients, so the tool will cater to the needs of the fire engineers. The definetion of tool in this research follows that given by Lockley and Sun \citep{Lockley1995} which is ``a computer program that is used by engineers to perform analysis of a building or its services (prior to relisation) for the purpose of making, modifying or evaluating design decisions''.
-\\
-\\
+
+\subsection{User Interface}
+\label{sec:User_Interface}
+
 As discussed in \ref{sec:DSS}, Keen puts forward the areas a \ac{DSS} should follow to allow the best use. These were that it should be flexible, easy to use, responsive and communicative. These aspects are met in the coding of the software. For example, ease of use comes down to the design of the \ac{GUI}. A well developed \ac{GUI} will allow users to navigate the program intuitivly. In the design of \ac{GUI}'s, Shneiderman and Plaisant lay down 8 ``golden rules'' of interface design. These are:-
 
 \begin{enumerate}
@@ -140,9 +143,68 @@ As discussed in \ref{sec:DSS}, Keen puts forward the areas a \ac{DSS} should fol
 \end{enumerate}
 
 These rules will lead to the optimised \ac{GUI} design that all parties, regardless of experience can use.
+
+\subsection{Software Methodologies}
+\label{sec:Software_Methodologies}
+
+As \ac{DSS} tools are software programs, they can be desgned following any of the current software design methodologies. A design methodology is the method of software creation, following a set system.
 \\
 \\
-As \ac{DSS} tools are software programs, they can be desgned following any of the current software design methodologies.
+Design methodologies often fall into one of two categories, Sequential or Iterative methodologies \citep{Whitten2003}. Figure \ref{fig:Sequential} demonstrates a sequential methodology. All development steps in a stage are completed before progressing onto the next step. This kind of methodology results in a longer time before the end user gets to use the software as all steps are completed before the final product is released.
+
+\begin{figure}[htp]
+\begin{center}
+	\includegraphics[width=15cm]{./Images/Sequential}
+	\caption{Sequential/Waterfall Methodology}
+	\label{fig:Sequential}
+\end{center}
+\end{figure}
+
+Figure \ref{fig:Iterative} shows an iterative step methodology. This methodology means that the end user can see progress on software throughout the design of the software as he will be involved in the testing of each partial system produced. This allows for more constant communication between the end users and the software programmers, meaning that the end product is likely to be more throughly tested than a sequentially designed piece of software.
+
+\begin{figure}[htp]
+\begin{center}
+	\includegraphics[width=15cm]{./Images/Iterative}
+	\caption{Iterative/Incremental Methodology}
+	\label{fig:Iterative}
+\end{center}
+\end{figure}
+
+\subsubsection{RAD}
+Rapid Application Development or RAD, is an iterative design methodology as it name implies, for the rapid development of software. It focuses on getting the end users interacting with the program during the development so that each cycle or iteration can be tested. The principle behind the beta versions and prototyping is that users will have a better idea of what they want when they see part of the program already working. RAD focuses on a few main points.
+\begin{itemize}
+\item Emphasis is on reducing time therefore phases of design and programming are consolidated and accelerated.
+\item In each iteration, only some design specifications will be considered.
+\item Assumption is that errors will be corrected in the next iteration.
+\item After each iteration, end users are invited to test the software.
+\item Based on feedback, designers will make changes until a version is deemed worthy of implementation.
+\end{itemize}
+The design phase within a RAD methodology is very short - the majority of design is done during each iteration.
+
+\subsubsection{Agile}
+In 2002, a publication by VTT Publications stated that agile software development was an umbrella term for various different software methodologies \citep{abrahamsson2002agile}. All of them share the same principles of quick iterative design, similar to the RAD methodology described above. In 2001, an manifesto was setup to document what an Agile methodology should consist of. This can be found at the Agile manifesto page \citep{Beck2001}. This states the following principles:
+\begin{enumerate}
+\item Individuals and interaction over process and tools
+\item Working software over comprehensive documentation
+\item Customer collaboration over contract negotiation
+\item Responding to change over following a plan
+\end{enumerate}
+These principles mean the various methodologies that fall under the Agile umbrella all share common roots.
+\\
+\\
+Of the Agile methods, there are a few which stand out as being more common than other methodologies \citep{cohen2003agile}. One of these is XP or Extreme Programming, put forward by Beck \citep{beck2000extreme} and the other is Scrum, first described in 1986 \citep{takeuchi1986new}.
+
+\subsubsection{XP}
+Extreme programming is focussed on small team developments, with 2-10 people involved in the design team. XP seeks to prevent schedule slips by having short release cycles on software \citep{beck2000extreme}. However, due to the nature of the methodology, of inter team communication and the need for co-location of the the design teams. It also has a very short iteration time of of about 2 to 4 weeks.
+
+\subsubsection{Scrum}
+Scrum is another team driven methodology that relies on an iterative, incremental steps. Scrum relies on:
+\begin{itemize}
+\item Transparency - Ensures that all aspects that affect the outcome are visible to those managing the work.
+\item Inspection - Work must be inspected frequently.
+\item Adaption - If an inspection determines something is outside acceptable limits, the inspector will adjust the process.
+\end{itemize}
+This list was taken from \citep{Schwaber2010}. The roles in a Scrum are those of the team (the programmers) and the ScrumMaster. The team are designed to optimise flexibility and productivity. Iterations are called sprints and these sprints are time boxed (done within a set time limit). During the sprint, the ScrumMaster makes sure that no changes are made that would affect the Sprint Goal. As the Sprints progress, the iterations come together to form the final product.
 
 % Remove all below this line when creating thesis from Master Document
 %TC:ignore

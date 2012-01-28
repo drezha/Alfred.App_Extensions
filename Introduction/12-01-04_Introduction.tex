@@ -16,7 +16,7 @@
 \usepackage{colortbl} % Adds colour to rows etc
 \usepackage{acronym} % Allows the use of acronyms in code - deals with printing acronyms out nicely
 \usepackage{booktabs} % Allows the use of professional looking tables
-\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={25.4mm,25.4mm}]{geometry} % Allows the changing of page borders
+\usepackage[a4paper,vmargin={25.4mm,25.4mm},hmargin={35mm,25.4mm}]{geometry} % Allows the changing of page borders
 
 \setlength{\parindent}{0.0in} % Sets paragraph indentation to 0
 \pagestyle{fancy}
@@ -32,27 +32,39 @@
 \acrodef{BCIS}{Building Cost Information Service}
 \acrodef{CLG}{Department of Communities and Local Government}
 \acrodef{CSV}{Comma Separated Value}
+\acrodef{DSS}{Decision Support System}
+\acrodef{FSEC}{Fire Service Emergency Cover}
 \acrodef{FPA}{Fire Protection Association}
 \acrodef{FRS}{Fire and Rescue Service}
+\acrodef{GUI}{Graphical User Interface}
 \acrodef{IRS}{Incident Reporting System}
 \acrodef{IRMP}{Integrated Risk Management Plan}
 \acrodef{RIBA}{Royal Institute of British Architects}
 
 \begin{document}
-%\onehalfspacing
+\onehalfspacing
 % Above command sets document to 1.5 line spacing
-\doublespacing
+%\doublespacing
 % Above command sets document to 2.0 line spacing
 % Remove all above when creating thesis from Master document
 
-\chapter{Indtroduction}
+\chapter{Introduction}
 \label{chap:Introduction}
 
 This chapter details the different parts of the following thesis.
 
 \section{Research Scope}
 \label{sec:Scope}
-
+Ever since it's discovery, fire has been a benefit to manakind but can also be problem, espcially a fire in the built enviroment. Yet, though careful management, design and building, the risk of fire to people and property can be decreased. For this reason, society has deemed that minimising the risk from fire is a worthwhile investment in man hours and money. Due to this, buildings built today have to prove a level of safety that will minimise the risk to occupants. This is achieved through the use of building regulations and restricting how buildings can be built. This approach leads to inflexible and potentially cost over design in some cases and it also focuses on the life safety of building users. Stakeholders in the construction and maintenance of buildings are now questioning whether it is also possible to consider protecting the property as well as keeping the design safe for occupants \citep{} - this leads to less fire damage and less costly fires.
+\\
+\\
+Research on fire costs has been carried out over the past 40 years. However, these studies either consider the cost to the national economies \citep{Rutstein1983a,Juaas1994} or have focussed on a specific system in isolation to the rest of a buildings fire protection \citep{Luck1973,Butry2009}. Work done by Ramachandran on the economics of fire protection \citep{Ramachandran1998} brought together various different cost benefit issues together. Whilst the book details the methods used to measure the cost benefits of fire protection, it only provided the theoretical base and no easy to use tool was considered for use during the design stage of a building by those responsible for it's design. Therefore a gap in the knowledge was identified in that no work had been attempted to help fire protection engineers construct a cost effective fire solution, over and above that required in building codes. Building on the work done previously by Ramachandran and others, a decision support tool methodolgy is put forward in this thesis.
+\\
+\\
+Currently, the UK \ac{FRS} use a tool, the \ac{FSEC} toolkit to analyse fire incidents and plan the location of equipment and resources accordingly. This toolkit uses data from previous incidents to providie statistical evidence for the model. The \ac{DSS} outcome from this project will use the same data to provide an evidence base for the decisions, as well as extra data from additional sources.
+\\
+\\
+My original contribution to knowledge is the construction of a decision support tool methodology for fire engineers, based on empirical evidence, for fire engineers for use in the design phase of a construction project.
 
 \section{Aims}
 \label{sec:Aims}
@@ -65,7 +77,7 @@ Firstly, understand the industries views on when fire enigineers should be invol
 Secondly, analyse and interpret fire incident data collected by \ac{CLG} and the \ac{FPA}.
 \\
 \\
-Lastly, using the collected data, consturct a cost benefit tool for use by fire engineers to easily propose different cost design proposals to a client and make it clear on the cost benefits of one design over the other.
+Lastly, using the collected data, consturct a decision support tool for use by fire engineers to easily propose different design proposals to a client and make it clear on the cost benefits of one design over the other.
 
 \section{Objectives}
 \label{sec:Objectives}
@@ -93,10 +105,49 @@ Publications published as part of this PhD are detailed below and are referenced
 
 \section{Structure of Thesis}
 \label{sec:Structure}
+\begin{enumerate}
+\item Abstract
+\item Contents
+\item Intro
+  \begin{itemize}
+  \item Scope
+  \item Aims
+  \item Objectives
+  \item Publications
+  \item Structure of thesis
+  \end{itemize}
+\item Literature Review
+  \begin{itemize}
+  \item Fire protection
+  \item Design Tools
+  \item Methods of data collection
+  \item Methods of data analysis
+  \item Methods of software design
+  \end{itemize}
+\item Methodology
+  \begin{itemize}
+  \item Data Collection (Questionnaires and Interviews)
+  \item Programming
+  \end{itemize}
+\item Analysis
+  \begin{itemize}
+  \item Interview and questionnaire analysis
+  \item Fire data analysis
+  \end{itemize}
+\item Discussion
+  \begin{itemize}
+  \item Statistical discussion
+  \item Design tool discussion
+  \end{itemize}
+\item Conclusions
+\item Recommendations
+\item Bibliography
+\end{enumerate}
+
 
 % Remove all below this line when creating thesis from Master Document
-%\addcontentsline{toc}{section}{Bibliography}
-%\bibliographystyle{custom}
-%\bibliography{../../../Bibliography}
+\addcontentsline{toc}{section}{Bibliography}
+\bibliographystyle{custom}
+\bibliography{../../Bibliography}
 
 \end{document}
