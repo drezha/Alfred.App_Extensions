@@ -1,0 +1,10 @@
+\begin{algorithm}
+	\caption{Code to Filter FDR 1 data}
+	\label{alg:Filtering_Code}
+\begin{lstlisting}
+sed -n 1p Lboro_9908.csv > Filtered_Buildings.csv
+ awk -F , "$14=="X" {print}" Lboro_9908.csv >> Filtered_Buildings.csv
+ awk -F , "$14=="Y" {print}" Lboro_9908.csv >> Filtered_Buildings.csv
+ awk -F , "$14=="Z" {print}" Lboro_9908.csv >> Filtered_Buildings.csv
+ \end{lstlisting}
+\end{algorithm}
